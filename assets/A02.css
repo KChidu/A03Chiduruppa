@@ -1,0 +1,114 @@
+html,body
+{ height: 100%;}
+
+*
+{ margin: 0;
+  padding: 0;}
+
+  body
+  { font: normal .80em 'trebuchet ms', arial, sans-serif;
+    background: #FFF;
+    color:black;
+    background-image: url("back.jpg");
+    
+}
+.container {
+    margin:0 auto; /* this will center the page */
+    width:960px; /*  use your width here */
+ }
+ div.center iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    .header
+    { background: #1d1d1d ;
+      border-bottom: 2px solid #E7746F;
+      height: 120px;
+    }  
+
+      #logo-text 
+      { position: absolute; 
+        top: 10px;
+        left: 50px;}
+    
+    #logo-text h3
+    { font-size: 200%;
+      padding: 4px 0 0 0;
+      color: wheat;}
+    p
+    { padding: 0 0 20px 0;
+      line-height: 1.7em;}
+
+      h1
+      { color: #E7746F;
+        letter-spacing: 0em;
+        padding: 0 0 5px 0;
+    font-size: 350%;}
+
+    h2
+    { color:black;
+      letter-spacing: 0em;
+      padding: 0 0 5px 0;
+  font-size: 150%;}
+  h4{
+      color: black;
+      letter-spacing: 0em;
+      padding:0 0 5px 0;
+      font-size:200%;
+  }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        li {
+            float: left;
+        }
+        
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+        
+        .img-circle {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        
+        .active {
+            background-color: #4CAF50;
+        }
+        .form_settings
+        { margin: 15px 0 0 0;}
+        
+        .form_settings p
+        { padding: 0 0 4px 0;
+        color:black}
+        
+        .form_settings span
+        { float: left; 
+          width: 200px; 
+          text-align: left;}
+          
+            #footer
+            { background: black;}
+            #footer p
+            {color: white;
+            text-align: center}
+           
+          
+          

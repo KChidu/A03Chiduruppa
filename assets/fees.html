@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<Title>Keerthi's A03</Title>
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="A02.css" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="A02.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+</head>
+<body>
+  <!--  <div class="wrapper">
+    <div class="header">
+      <div id="logo-text"> -->
+<h1>Profile</h1>
+<h3>Keerthi Chiduruppa</h3>
+    <!--  </div>
+    </div>-->
+  
+  
+    <ul>
+        <li><a href="index.html">Keerthi A03</a></li>
+      <li><a href="index">About</a></li>
+      <li><a href="fees">Fees Converter</a></li>
+      <li><a href="contact">Contact</a></li>
+      <li><a href="guestbook">My Guestbook</a></li>
+      <li style="float:right"><a class="active" href="account">Account</a></li>
+    </ul>
+<br>
+<div class="container">
+<h4>Know your balance fees</h4><br>
+    <!--<div class="form_settings">
+        <p><span>919#</span><input id="919" type="text" name="919#" value="" /></p>
+        <p><span>Enter Credit Hours</span><input id="credit" type="text" name="pin" value="" /></p>
+        <button onclick="App.launch()" class="btn btn-lg btn-danger">submit</button> <br/> <br/>
+        <textarea rows="4" cols="50">
+        My balance fees for the semester is displayed here when I submit the 919# and pin.
+            </textarea><br>-->
+            <p>You can convert your fees from US Dollars to Indian Rupees and from Indian Rupees to US Dollars</p>
+            <table>
+                    <tr>
+                        <td> Enter your fees in Dollars <input id="firstinput" onkeyup="convert('C');"></td>
+                        <td>
+                            <select id="from" onchange="convert('C')">
+                                <option value="INR" selected>USdollar(USD)</option>
+                                <option value="USD">Rupees(INR)</option>
+                            </select>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td> Your fees in India Rupees     <input id="secondinput" onkeyup="convert('F')"></td>
+                        <td>
+                            <select id="to"  onchange="convert('F')">
+                                <option value="INR">USdollar(USD)</option>
+                                <option value="USD" selected>Rupees(INR)</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table><br><br>
+                <p>You can convert your fees from US Dollars to Euros and from Euros to US Dollars</p>
+                <table>
+                    <tr>
+                            <td> Enter your fees in US Dollars <input id="thirdinput" onkeyup="convert('A');"></td>
+                            <td>
+                                <select id="froms" onchange="convert('A')">
+                                    <option value="EURO" selected>USdollar(USD)</option>
+                                    <option value="USD">Euro(EUR)</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                                <td> Your fees in Eorozone Euros  &ensp; <input id="fourthinput" onkeyup="convert('B')"></td>
+                                <td>
+                                    <select id="tos"  onchange="convert('B')">
+                                        <option value="EURO">USdollar(USD)</option>
+                                        <option value="USD" selected>Euro(EUR)</option>
+                                    </select>
+                                </td>
+                            </tr>   
+            
+                    </table><br>
+        <img src=image1.png alt="text">
+    </div>
+    </div>
+    <div class="push"></div>
+  </div>
+  <div id="footer">
+     <p>Copyright &copy; Keerthi Chiduruppa<br/><a href="contact.html">contact</a></p>
+    
+  </div>
+  </body>
+  </html>
